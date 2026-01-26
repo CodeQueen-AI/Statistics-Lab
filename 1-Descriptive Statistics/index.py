@@ -34,3 +34,7 @@ def median(data):
 # Marks
 marks = [80, 50, 45, 91]
 print('Median of Marks is : ' , median(marks))
+
+# Using Numpy
+marks = [80, 50, 45, 91]
+print('Median of Marks (Numpy) is : ' , np.median(marks))
