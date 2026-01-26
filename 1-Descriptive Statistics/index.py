@@ -10,3 +10,6 @@ def my_sum(data):
 def mean(data):
     return my_sum(data) / len(data)
 
+# Marks
+marks = [80, 50, 45, 91]
+print('Mean of Marks is : ' , mean(marks))
