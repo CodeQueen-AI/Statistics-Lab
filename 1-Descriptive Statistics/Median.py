@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-# Median
 def median(data):
     data = sorted(data)
     n = len(data)
@@ -9,7 +8,6 @@ def median(data):
         return (data[n//2 - 1] + data[n//2]) / 2
     return data[n//2]
 
-# Marks
 marks = [80, 50, 45, 91]
 print('Median of Marks is : ' , median(marks))
 
