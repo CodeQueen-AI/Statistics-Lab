@@ -12,15 +12,15 @@ In simple words:
 
 ## 🧠 Types of Statistics
 
-Statistics is mainly divided into **two types**:
+Statistics is mainly divided into Two Types:
 
 
 ## 1️⃣ Descriptive Statistics 
 
-**Descriptive Statistics** is also called **Simple Statistics**
+Descriptive Statistics is also called Simple Statistics
 
-👉 It is used to **describe and summarize data**
-👉 It does **not** make predictions or decisions
+👉 It is used to describe and summarize data
+👉 It does not make predictions or decisions
 
 ### 🔹 Common concepts in Descriptive Statistics
 
@@ -37,7 +37,7 @@ Finding the average marks of students or the highest and lowest values in a data
 
 ## 2️⃣ Inferential Statistics
 
-**Inferential Statistics** is used to **draw conclusions about a population using sample data**
+**Inferential Statistics** is used to draw conclusions about a population using sample data
 
 👉 It goes beyond just describing data
 👉 It helps in decision‑making and predictions
