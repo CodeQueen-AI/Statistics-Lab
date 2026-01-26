@@ -22,3 +22,13 @@ print('Mean of Marks (Numpy) is : ' , np.mean(marks))
 marks = [80, 50, 45, 91]
 marks_series = pd.Series(marks)
 print('Mean of Marks (Pandas) is : ' , marks_series.mean())
+
+# Median
+def median(data):
+    sorted_data = sorted(data)
+    n = len(sorted_data)
+    mid = n // 2
+    
+    if n % 2 == 0:
+        return (sorted)
+
