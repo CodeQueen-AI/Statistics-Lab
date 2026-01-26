@@ -25,10 +25,8 @@ print('Mean of Marks (Pandas) is : ' , marks_series.mean())
 
 # Median
 def median(data):
-    sorted_data = sorted(data)
-    n = len(sorted_data)
-    mid = n // 2
-    
+    data = sorted(data)
+    n = len(data)
     if n % 2 == 0:
-        return (sorted)
-
+        return (data[n//2 - 1] + data[n//2]) / 2
+    return data[n//2]
