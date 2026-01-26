@@ -30,3 +30,7 @@ def median(data):
     if n % 2 == 0:
         return (data[n//2 - 1] + data[n//2]) / 2
     return data[n//2]
+
+# Marks
+marks = [80, 50, 45, 91]
+print('Median of Marks is : ' , median(marks))
