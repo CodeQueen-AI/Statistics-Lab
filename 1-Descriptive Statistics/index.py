@@ -6,3 +6,7 @@ def my_sum(data):
     for value in data:
         result += value
     return result
+
+def mean(data):
+    return my_sum(data) / len(data)
+
