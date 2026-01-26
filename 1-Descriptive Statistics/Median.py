@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 # Median
 def median(data):
     data = sorted(data)
