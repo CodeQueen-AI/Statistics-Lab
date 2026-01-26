@@ -1,1 +1,0 @@
-# Statistics Topics : Mean Mode
