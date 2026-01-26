@@ -17,3 +17,7 @@ print('Mean of Marks is : ' , mean(marks))
 # Steps
 steps = [4000, 5000, 6000, 7000, 8000]
 print('Mean of Steps is : ', mean(steps))
+
+# Using Numpy
+marks = [80, 50, 45, 91]
+print('Mean of Marks (Numpy) is : ' , np.mean(marks))
