@@ -17,3 +17,8 @@ print('Mean of Marks is : ' , mean(marks))
 # Using Numpy
 marks = [80, 50, 45, 91]
 print('Mean of Marks (Numpy) is : ' , np.mean(marks))
+
+# Using Pandas
+marks = [80, 50, 45, 91]
+marks_series = pd.Series(marks)
+print('Mean of Marks (Pandas) is : ' , marks_series.mean())
