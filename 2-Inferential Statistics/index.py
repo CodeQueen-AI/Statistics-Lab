@@ -17,6 +17,7 @@ print("Sample Space:", sample_space)
 event = [2, 4, 6]
 print('Event :', event)
 
+# Joint Probability
 def join_probability(event_A, event_B, total_outcomes):
     join_event = list(set(event_A) & set(event_B))
     return len(join_event) / total_outcomes
@@ -27,3 +28,4 @@ total_outcomes = 6
 
 prob = join_probability(event_A, event_B, total_outcomes)
 print('Join Probability: ', prob)
+
