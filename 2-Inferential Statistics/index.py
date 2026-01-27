@@ -12,3 +12,7 @@ print('Probability in % :' , prob*100, '%')
 # Sample Space
 sample_space = [1, 2, 3, 4, 5, 6] 
 print("Sample Space:", sample_space)
+
+# Event
+event = [2, 4, 6]
+print('Event :', event)
