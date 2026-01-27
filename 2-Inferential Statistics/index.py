@@ -81,3 +81,7 @@ n = 5
 r = 2
 perm = math.factorial(n) // math.factorial(n - r)
 print("Permutation P(5,2):", perm)
+
+# Combination nCr
+comb = math.factorial(n) // (math.factorial(r) * math.factorial(n - r))
+print("Combination C(5,2):", comb)
