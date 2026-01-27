@@ -3,3 +3,11 @@ def mode(data):
 
 marks = [80, 50, 45, 91]
 print('Mean of Marks is : ' , mode(marks))
+
+
+import numpy as np
+import pandas as pd
+
+# Using NumPy
+data = [2, 4, 6, 4, 8, 10]
+print('Mode Numpy is : ', np.bincount(data.argmax()))
