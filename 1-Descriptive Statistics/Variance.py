@@ -7,3 +7,11 @@ def variance(data):
 
 marks = [80, 50, 45, 91]
 print('Variance of Marks is : ', variance(marks))
+
+import numpy as np
+marks = [80, 50, 45, 91]
+print('Variance Numpy is : ', np.var(marks))
+
+import pandas as pd
+marks = [80, 50, 45, 91]
+print('Variance Numpy is : ', np.var(marks))
