@@ -1,12 +1,11 @@
+import numpy as np
+import pandas as pd
+
 def mode(data):
     return max(data, key=data.count)
 
 marks = [80, 50, 45, 91]
 print('Mean of Marks is : ' , mode(marks))
-
-
-import numpy as np
-import pandas as pd
 
 # Using NumPy
 data = [2, 4, 6, 4, 8, 10]
