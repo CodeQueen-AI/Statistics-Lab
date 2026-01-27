@@ -8,3 +8,5 @@ def standard_deviation(data):
     variance = total / len(data)
     return math.sqrt(variance)
 
+marks = [80, 50, 45, 91]
+print('Standard Deviation of Marks is : ', standard_deviation(marks))
