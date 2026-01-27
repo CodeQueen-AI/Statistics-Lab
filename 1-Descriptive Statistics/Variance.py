@@ -14,4 +14,4 @@ print('Variance Numpy is : ', np.var(marks))
 
 import pandas as pd
 marks = [80, 50, 45, 91]
-print('Variance Numpy is : ', np.var(marks))
+print('Variance Pandas is : ', series.var())
