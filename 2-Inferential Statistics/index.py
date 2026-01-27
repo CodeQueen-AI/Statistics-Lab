@@ -52,16 +52,13 @@ cond_prob = len(set(event_A) & set(event_B)) / len(event_B)
 print("Conditional Probability P(A|B):", cond_prob)
 
 # Independence
-# Independent Events Example
-event_A = [2, 4, 6]   # Event A
-event_B = [1, 3, 5]   # Event B
+event_A = [2, 4, 6]  
+event_B = [1, 3, 5]  
 total_outcomes = 6
 
-# Probability function
 def probability(fav, total):
     return len(fav) / total
 
-# Check independence
 P_A = probability(event_A, total_outcomes)
 P_B = probability(event_B, total_outcomes)
 P_A_and_B = probability(list(set(event_A) & set(event_B)), total_outcomes)
