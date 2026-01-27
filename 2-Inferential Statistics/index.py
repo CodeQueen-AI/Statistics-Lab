@@ -75,3 +75,9 @@ shirts = 2
 pants = 3
 total_outfits = shirts * pants
 print('Total outfits (Multiplication Rule) : ', total_outfits)
+
+# Permutation nPr
+n = 5
+r = 2
+perm = math.factorial(n) // math.factorial(n - r)
+print("Permutation P(5,2):", perm)
