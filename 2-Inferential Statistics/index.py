@@ -67,4 +67,11 @@ if P_A_and_B == P_A * P_B:
     print("Events A and B are Independent")
 else:
     print("Events A and B are NOT Independent")
+    
+# Counting Rule
+import math
 
+shirts = 2
+pants = 3
+total_outfits = shirts * pants
+print('Total outfits (Multiplication Rule) : ', total_outfits)
