@@ -2,7 +2,7 @@
 
 Descriptive Statistics helps us describe data in a short and meaningful way
 
-Instead of listing every value individually, we summarize data using **key measures** like **Mean**, **Median**, and **Mode**
+Instead of listing every value individually, we summarize data using **key measures** like **Mean**, **Median** and **Mode**
 
 
 ## 🔹 **Measures of Central Tendency**
@@ -24,7 +24,7 @@ Mean = (45 + 70 + 90 + 60) ÷ 4 = **66.25**
 
 > “The average score of the class is 66.25”
 
----
+
 
 ### **2️⃣ Median (Middle Value)**
 
