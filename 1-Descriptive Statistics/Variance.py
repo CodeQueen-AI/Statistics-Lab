@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 def variance(data):
     mean = sum(data) / len(data)
     total = 0
@@ -8,10 +11,11 @@ def variance(data):
 marks = [80, 50, 45, 91]
 print('Variance of Marks is : ', variance(marks))
 
-import numpy as np
+# Using Numpy
 marks = [80, 50, 45, 91]
 print('Variance Numpy is : ', np.var(marks))
 
-import pandas as pd
+# Using Pandas
 marks = [80, 50, 45, 91]
+series = pd.Series(marks)
 print('Variance Pandas is : ', series.var())
