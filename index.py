@@ -41,3 +41,7 @@ def z_critical(tail, alpha = 0.05):
     return critical_value
   else:
     print("tail must be 'two', 'right', or 'left'")
+    
+print("Z two-tailed (alpha=0.05):", z_critical("two",0.05))
+print("Z right-tailed (alpha=0.05):", z_critical("right",0.05))
+print("Z left-tailed (alpha=0.05):", z_critical("left",0.05))
