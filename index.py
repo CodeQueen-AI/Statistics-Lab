@@ -58,8 +58,20 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
     elif tail == "left":
         print('H1: mu0 < ', mu0)
     else:
-        print('Tail must be two , left or right!')
+        print('Incorrect of value of tail!')
     
     print('STEP 2')
     if tail == 'two':
         print('Type of Test: Two tailwd test')
+    elif tail == 'right': 
+        print('Type of Test: Right tailed test')
+    elif tail == 'left':
+        print('Type of Test: Left tailed test')
+    else:
+        print('Incorrect value of tail')
+        
+    print('STEP 3')
+    print("n = ", n)
+    print("xbar = ", xbar)
+    print("sigma = ", sigma)
+    print("alpha = ", alpha )
