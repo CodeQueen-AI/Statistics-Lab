@@ -61,5 +61,5 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
         print('Tail must be two , left or right!')
     
     print('STEP 2')
-    
-        
+    if tail == 'two':
+        print('Type of Test: Two tailwd test')
