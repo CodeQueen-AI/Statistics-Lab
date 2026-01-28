@@ -17,3 +17,5 @@ def t_critical(df, alpha=0.5, tail='two'):
         return critical_value
     else:
         print("Tail must be 'two', 'right', or'left'")
+        
+print("T right-tailed(df=24, alpha=0.05):", t_critical(24, 0.05, "right"))
