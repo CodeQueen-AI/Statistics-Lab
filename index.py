@@ -23,3 +23,21 @@ print("T two-tailed (df=9, alpha=0.05):", t_critical(9, 0.05, "two"))
 print("T two-tailed (df=9, alpha=0.05):", t_critical(9, 0.05, "left"))
 print("T two-tailed (df=9, alpha=0.05):", t_critical(9, 0.05, "three"))
 print("T two-tailed (df=9, alpha=0.05):", t_critical(9))
+
+# z-critical value
+def z_critical(tail, alpha = 0.05):
+  if tail == "two":
+    alpha = alpha /2
+    critical_value = norm.ppf(1-alpha)
+    critical_value_2 = - critical_value
+    return (critical_value, critical_value_2)
+  elif tail == "left":
+    alpha = alpha
+    critical_value = norm.ppf(alpha)
+    return critical_value
+  elif tail == "right":
+    alpha = 1 - alpha
+    critical_value = norm.ppf(alpha)
+    return critical_value
+  else:
+    print("tail must be 'two', 'right', or 'left'")
