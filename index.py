@@ -45,3 +45,19 @@ def z_critical(tail, alpha = 0.05):
 print("Z two-tailed (alpha=0.05):", z_critical("two",0.05))
 print("Z right-tailed (alpha=0.05):", z_critical("right",0.05))
 print("Z left-tailed (alpha=0.05):", z_critical("left",0.05))
+
+
+# z-test_steps
+def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
+    print('Step 1:')
+    print("HO: mu0 = ", mu0)
+    if tail == "two":
+        print("H1: mu0 != ", mu0)
+    elif tail == "right":
+        print('H1: mu0 > ', mu0)
+    elif tail == "left":
+        print('H1: mu0 < ', mu0)
+    else:
+        print('Tail must be two , left or right!')
+    
+        
