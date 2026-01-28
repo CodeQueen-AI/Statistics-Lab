@@ -19,3 +19,7 @@ def t_critical(df, alpha=0.5, tail='two'):
         print("Tail must be 'two', 'right', or'left'")
         
 print("T right-tailed(df=24, alpha=0.05):", t_critical(24, 0.05, "right"))
+print("T two-tailed (df=9, alpha=0.05):", t_critical(9, 0.05, "two"))
+print("T two-tailed (df=9, alpha=0.05):", t_critical(9, 0.05, "left"))
+print("T two-tailed (df=9, alpha=0.05):", t_critical(9, 0.05, "three"))
+print("T two-tailed (df=9, alpha=0.05):", t_critical(9))
