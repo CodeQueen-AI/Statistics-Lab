@@ -85,4 +85,4 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
     print('Z test = (xbar - mu0) / (sigma / sqrt(n))')
     z = (xbar - mu0) / (sigma/ np.sqrt(n))
     print(f"Z test = ({xbar} - {mu0}) / ({sigma} / sqrt({n}))")
-    print("z=" , z)
+    print("z =" , z)
