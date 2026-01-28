@@ -80,4 +80,9 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
     print("sigma = ", sigma)
     print("alpha = ", alpha )
     
-    
+    # STep 4 - Z Test Calculation
+    print('Step 4')
+    print('Z test = (xbar - mu0) / (sigma / sqrt(n))')
+    z = (xbar - mu0) / (sigma/ np.sqrt(n))
+    print(f"Z test = ({xbar} - {mu0}) / ({sigma} / sqrt({n}))")
+    print("z=" , z)
