@@ -88,4 +88,6 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
     print("z =" , z)
 
     # Step 5: Critical Value + Decision (USING z_critical function)
-    
+    print('STEP 5')
+    critical_value = z_critical(tail, alpha)
+    print('Critical Value : ', critical_value)
