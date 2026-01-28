@@ -91,3 +91,23 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
     print('STEP 5')
     critical_value = z_critical(tail, alpha)
     print('Critical Value : ', critical_value)
+    
+    if tail == 'two':
+        left_critical, right_critical = critical_value
+        if z < left_critical or z > right_critical:
+            print('Reject H0')
+        else:
+            print('Failed to reject H0')
+    elif tail == 'right':
+        if z > critical_value:
+            print('Reject H0')
+        else:
+            print('Failed to reject H0')
+    elif tail == 'left':
+        if z < critical_value:
+            print('Reject H0')
+        else:
+            print('Failed to reject H0')
+            
+# Step 5: Credit Card Debt
+z_test_steps(mu0=3262, xbar=2995, sigma=1100, n=50, alpha=0.05, tail="left")
