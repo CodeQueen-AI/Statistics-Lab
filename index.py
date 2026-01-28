@@ -49,7 +49,7 @@ print("Z left-tailed (alpha=0.05):", z_critical("left",0.05))
 
 # z-test_steps
 def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
-    print('Step 1:')
+    print('STEP 1:')
     print("HO: mu0 = ", mu0)
     if tail == "two":
         print("H1: mu0 != ", mu0)
@@ -59,5 +59,7 @@ def z_test_steps(mu0, xbar, sigma, n, alpha=0.05, tail='left'):
         print('H1: mu0 < ', mu0)
     else:
         print('Tail must be two , left or right!')
+    
+    print('STEP 2')
     
         
